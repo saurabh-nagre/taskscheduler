@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_working">
+
+
+
+    <fragment
+        android:id="@+id/nav_working"
+        android:name="com.master.taskscheduler.ui.WorkingFragment"
+        android:label="@string/menu_working"
+        tools:layout="@layout/fragment_working" />
+
+    <fragment
+        android:id="@+id/nav_arriving"
+        android:name="com.master.taskscheduler.ui.ArrivingFragment"
+        android:label="@string/menu_arriving"
+        tools:layout="@layout/fragment_arriving" />
+    <fragment
+        android:id="@+id/nav_finished"
+        android:name="com.master.taskscheduler.ui.FinishedFragment"
+        android:label="@string/menu_finished"
+        tools:layout="@layout/fragment_finished"/>
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.master.taskscheduler.ui.ScheduleFragment"
+        android:label="@string/menu_schedule"
+        tools:layout="@layout/fragment_schedule"/>
+</navigation>

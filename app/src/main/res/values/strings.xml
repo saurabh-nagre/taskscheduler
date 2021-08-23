@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TaskScheduler</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="addcontent">Click to Add New Task</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_arriving">Arriving Tasks</string>
+    <string name="menu_working">On Track Tasks</string>
+    <string name="menu_finished">Finished Tasks</string>
+    <string name="menu_schedule">Schedule Your Day</string>
+
+
+    <string name="addnewtask">Set a Name for your Target</string>
+    <string name="adddescription">Add Description for Task</string>
+    <string name="moreonList">More On List</string>
+    <string name="clicktoaddnewtask">Click to Add New Task</string>
+    <string name="autofillhints">Office</string>
+    <string name="addtask">Got New Target,Put Down Here</string>
+    <string name="selectstartdate">Select Start Date</string>
+    <string name="selectstarttime">Select Start Time</string>
+    <string name="selectenddate">Select End Date</string>
+    <string name="selectendtime">Select End Time</string>
+    <string name="submit">Submit</string>
+
+    <string name="startnow">Start Now</string>
+    <string name="completecard">Set Completed Task</string>
+    <string name="cancelcard">Cancel Task</string>
+
+
+</resources>
